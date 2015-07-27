@@ -1,0 +1,25 @@
+{
+  "name": "proto-es6",
+  "version": "0.0.1",
+  "description": "proto-es6",
+  "scripts": {
+    "start": "budo main.jsx:main.js -v --live -- -t babelify --extension='.jsx' | opnr | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin/proto-es6"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "budo": "^4.1.0",
+    "garnish": "^2.2.2",
+    "opnr": "^1.0.4",
+    "watchify": "^3.3.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-dnd": "^1.1.4"
+  }
+}
